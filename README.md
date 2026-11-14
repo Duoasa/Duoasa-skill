@@ -1,10 +1,12 @@
-# 比起复制谁，我更想让设计师成为自己
+# Duoasa-skill
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-![Agent Skill: Be Yourself](https://img.shields.io/badge/Agent_Skill-Be_Yourself-8250df.svg)
+![Agent Skill: Duoasa-skill](https://img.shields.io/badge/Agent_Skill-Duoasa--skill-8250df.svg)
 ![Design: Visual](https://img.shields.io/badge/Design-Visual-0969da.svg)
 
-你好，屏幕前的你。我已经在完全离线的情况下蒸馏了你。我敢保证，`be-yourself` 是全世界所有模型都能用、也最懂你的 Skill。验收就麻烦你本人了。
+我拔掉网线，把历代设计大师的内核全蒸馏了一遍。画风差了几百年，蒸到最后，居然只剩下同一个参数。
+
+以下是蒸馏报告。
 
 ## 半小时能打包一套画风
 
