@@ -99,7 +99,6 @@ It is also why I care about these plugins in DeepSeek Harness (DSH):
 
 - **[DSH × Blender](https://github.com/sixtysevenlf/dsh-blender-plugin)** lets a model participate in Blender edits and supports visual comparisons as designers refine form, materials, and lighting.
 - **[DSH × ComfyUI](https://github.com/fandc520/dsh-comfyui)** connects existing image workflows so designers can adjust parameters and explore different results more easily.
-- **[DSH to Figma](https://github.com/Duoasa/DSH-to-Figma)** is my attempt to help designers turn ideas into editable content inside familiar files, make another version, and compare the results.
 
 These are tools for designers. Their value should show up in how easily designers can explore, revise, and finish their own work.
 
