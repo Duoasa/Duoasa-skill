@@ -6,9 +6,56 @@
   <img src="https://img.shields.io/badge/Design-Visual-0969da.svg" alt="Design: Visual">
 </p>
 
+<p align="center"><strong>简体中文</strong> · <a href="README.en.md">English</a></p>
+
 我把历代设计大师的内核全蒸馏了一遍。
 
 画风各不相同，蒸到最后，居然只剩同一个参数。现已重磅开源，参数就在标题里。
+
+## 安装与使用
+
+真正的 Skill 文件在 [skills/be-yourself/SKILL.md](skills/be-yourself/SKILL.md)。把 `be-yourself` 文件夹放进客户端支持的 Skills 目录即可；仅下载仓库不会自动启用。
+
+先下载仓库（以下命令适用于 macOS、Linux 或 Git Bash）：
+
+```bash
+git clone https://github.com/Duoasa/Duoasa-skill.git
+cd Duoasa-skill
+```
+
+按使用的客户端选择一组命令：
+
+**Codex**
+
+```bash
+mkdir -p "$HOME/.agents/skills"
+cp -R -i skills/be-yourself "$HOME/.agents/skills/"
+```
+
+在对话中调用：
+
+```text
+$be-yourself 根据我已有的稿件和偏好，帮我把这个方向继续做下去。
+```
+
+**Claude Code（本地）**
+
+```bash
+mkdir -p "$HOME/.claude/skills"
+cp -R -i skills/be-yourself "$HOME/.claude/skills/"
+```
+
+在对话中调用：
+
+```text
+/be-yourself 根据我已有的稿件和偏好，帮我把这个方向继续做下去。
+```
+
+安装位置依据 [Codex 文档](https://learn.chatgpt.com/docs/build-skills)与 [Claude Code 文档](https://code.claude.com/docs/en/skills)。若当前会话未显示新 Skill，重新打开会话后再选择。其他支持 Agent Skills 的客户端，请按其安装说明导入同一文件夹；不支持 Skills 的聊天工具，也可以直接阅读并引用文件内容，但这不等于安装。
+
+它会引导模型从你的目标、稿件和偏好出发，解释取舍、帮助试做，减少重复操作。它不提供统一画风，也不承诺让人一键拥有审美。
+
+---
 
 ## 半小时能打包一套画风，审美呢？
 
@@ -72,6 +119,8 @@ AI 越来越擅长一次给出十张好看的图。这时候更重要的，是�
 
 我更希望工具能省下那些重复操作，让设计师有精力把自己的判断做充分。多试一种可能，多推敲一次细节，把一直放在心里的东西真正做出来。
 
-至于这个号称蒸馏了历代大师的 Skill，读到这里，你已经完成安装。剩下的，没有统一预设。
+至于这个号称蒸馏了历代大师的 Skill，它还真有一个 [SKILL.md](skills/be-yourself/SKILL.md)。里面没有大师的统一画风，只有一套协作约定：从你的想法出发，把选择和取舍讲清楚，帮你把想做的东西做出来。
+
+**这个 Skill 会让模型帮你做自己。**
 
 **比起让工具越来越像某一个人，我更关心，用它的人能不能越来越像自己。**
