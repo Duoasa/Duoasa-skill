@@ -122,5 +122,3 @@ I want tools to save designers the repetitive work so they have the energy to gi
 As for this Skill that supposedly distilled generations of masters: it really does have a [SKILL.md](skills/be-yourself/SKILL.md). Inside is a working agreement: start from your ideas, make choices and tradeoffs clear, and help you make what you want to make. No universal master style included.
 
 **This Skill helps the model help you be yourself.**
-
-**I care less about tools becoming more like one particular person, and more about the people using them becoming more like themselves.**
