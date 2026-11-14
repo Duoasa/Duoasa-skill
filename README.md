@@ -1,4 +1,4 @@
-<h1 align="center">BE YOURSELF</h1>
+<h1 align="center">做自己</h1>
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
