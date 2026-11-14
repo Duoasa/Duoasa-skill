@@ -99,7 +99,6 @@ AI 越来越擅长一次给出十张好看的图。这时候更重要的，是�
 
 - **[DSH × Blender](https://github.com/sixtysevenlf/dsh-blender-plugin)**：让模型参与 Blender 中的修改，通过出图对照，支持设计师继续推敲形体、材质和光线。
 - **[DSH × ComfyUI](https://github.com/fandc520/dsh-comfyui)**：连接已有的图像工作流，让设计师更方便地调整参数、尝试不同效果。
-- **[DSH to Figma](https://github.com/Duoasa/DSH-to-Figma)**：我做它，是希望设计师能在熟悉的文件里，把想法变成可编辑的内容，改一版，再对照着看。
 
 这些都是给设计师使用的工具。它们的价值，应该体现在设计师能不能更方便地尝试、修改和完成自己的设计。
 
