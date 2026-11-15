@@ -77,9 +77,12 @@ AI 越来越擅长一次给出十张好看的图。这时候更重要的，是�
 
 **这个 Skill 会让模型帮你做自己。**
 
+如果你读到了这里，那么你自己就已经装上了这个 Skill。希望在 AI 时代，你能少一点盲目跟随，借助 AI，把自己真正想做的东西做出来。
+
 ---
 
-## 安装与使用
+<details>
+<summary>想给模型也装上？展开安装与使用说明</summary>
 
 真正的 Skill 文件在 [skills/duoasa-skill/SKILL.md](skills/duoasa-skill/SKILL.md)。把 `duoasa-skill` 文件夹放进客户端支持的 Skills 目录即可；仅下载仓库不会自动启用。
 
@@ -121,3 +124,5 @@ cp -R -i skills/duoasa-skill "$HOME/.claude/skills/"
 安装位置依据 [Codex 文档](https://learn.chatgpt.com/docs/build-skills)与 [Claude Code 文档](https://code.claude.com/docs/en/skills)。若当前会话未显示新 Skill，重新打开会话后再选择。其他支持 Agent Skills 的客户端，请按其安装说明导入同一文件夹；不支持 Skills 的聊天工具，也可以直接阅读并引用文件内容，但这不等于安装。
 
 它会引导模型从你的目标、稿件和偏好出发，解释取舍、帮助试做，减少重复操作。它不提供统一画风，也不承诺让人一键拥有审美。
+
+</details>

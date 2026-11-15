@@ -77,9 +77,12 @@ As for this Skill that supposedly distilled generations of masters: it really do
 
 **This Skill helps the model help you be yourself.**
 
+If you have read this far, you have already installed this Skill in yourself. I hope that in the AI era, you will spend less time blindly following others and use AI to make what you actually want to make.
+
 ---
 
-## Install and use
+<details>
+<summary>Want to install it for your model too? Expand the setup guide</summary>
 
 The actual skill lives in [skills/duoasa-skill/SKILL.md](skills/duoasa-skill/SKILL.md). Put the `duoasa-skill` folder in your client's supported skills directory. Downloading the repository alone does not activate it.
 
@@ -121,3 +124,5 @@ Invoke it in a conversation:
 These locations follow the [Codex documentation](https://learn.chatgpt.com/docs/build-skills) and [Claude Code documentation](https://code.claude.com/docs/en/skills). If the skill does not appear in your current session, start a new session and select it. For other Agent Skills clients, import the same folder following their instructions. In chat tools without skill support, you can read and include the file as context; that is not an installation.
 
 The skill guides the model to work from your goals, drafts, and preferences, explain tradeoffs, help you try ideas, and reduce repetitive work. It ships no signature visual style and promises no instant taste.
+
+</details>
