@@ -12,51 +12,6 @@ I distilled the essence of generations of design masters.
 
 Different styles, different eras. Somehow, the distillation left just one parameter. It is now open source. You have already read it in the title.
 
-## Install and use
-
-The actual skill lives in [skills/duoasa-skill/SKILL.md](skills/duoasa-skill/SKILL.md). Put the `duoasa-skill` folder in your client's supported skills directory. Downloading the repository alone does not activate it.
-
-First, download the repository. These commands work in macOS, Linux, or Git Bash:
-
-```bash
-git clone https://github.com/Duoasa/Duoasa-skill.git
-cd Duoasa-skill
-```
-
-Choose the commands for your client:
-
-**Codex**
-
-```bash
-mkdir -p "$HOME/.agents/skills"
-cp -R -i skills/duoasa-skill "$HOME/.agents/skills/"
-```
-
-Invoke it in a conversation:
-
-```text
-$duoasa-skill Help me develop this direction from my existing work and preferences.
-```
-
-**Claude Code (local)**
-
-```bash
-mkdir -p "$HOME/.claude/skills"
-cp -R -i skills/duoasa-skill "$HOME/.claude/skills/"
-```
-
-Invoke it in a conversation:
-
-```text
-/duoasa-skill Help me develop this direction from my existing work and preferences.
-```
-
-These locations follow the [Codex documentation](https://learn.chatgpt.com/docs/build-skills) and [Claude Code documentation](https://code.claude.com/docs/en/skills). If the skill does not appear in your current session, start a new session and select it. For other Agent Skills clients, import the same folder following their instructions. In chat tools without skill support, you can read and include the file as context; that is not an installation.
-
-The skill guides the model to work from your goals, drafts, and preferences, explain tradeoffs, help you try ideas, and reduce repetitive work. It ships no signature visual style and promises no instant taste.
-
----
-
 ## Half an hour to package a style. What about taste?
 
 Lately, I keep seeing visual styles packaged as Skills: colors, brushwork, materials, and lighting bundled into a preset. They can save time when making a series of covers. Sharing them is a good thing.
@@ -121,3 +76,48 @@ I want tools to save designers the repetitive work so they have the energy to gi
 As for this Skill that supposedly distilled generations of masters: it really does have a [SKILL.md](skills/duoasa-skill/SKILL.md). Inside is a working agreement: start from your ideas, make choices and tradeoffs clear, and help you make what you want to make. No universal master style included.
 
 **This Skill helps the model help you be yourself.**
+
+---
+
+## Install and use
+
+The actual skill lives in [skills/duoasa-skill/SKILL.md](skills/duoasa-skill/SKILL.md). Put the `duoasa-skill` folder in your client's supported skills directory. Downloading the repository alone does not activate it.
+
+First, download the repository. These commands work in macOS, Linux, or Git Bash:
+
+```bash
+git clone https://github.com/Duoasa/Duoasa-skill.git
+cd Duoasa-skill
+```
+
+Choose the commands for your client:
+
+**Codex**
+
+```bash
+mkdir -p "$HOME/.agents/skills"
+cp -R -i skills/duoasa-skill "$HOME/.agents/skills/"
+```
+
+Invoke it in a conversation:
+
+```text
+$duoasa-skill Help me develop this direction from my existing work and preferences.
+```
+
+**Claude Code (local)**
+
+```bash
+mkdir -p "$HOME/.claude/skills"
+cp -R -i skills/duoasa-skill "$HOME/.claude/skills/"
+```
+
+Invoke it in a conversation:
+
+```text
+/duoasa-skill Help me develop this direction from my existing work and preferences.
+```
+
+These locations follow the [Codex documentation](https://learn.chatgpt.com/docs/build-skills) and [Claude Code documentation](https://code.claude.com/docs/en/skills). If the skill does not appear in your current session, start a new session and select it. For other Agent Skills clients, import the same folder following their instructions. In chat tools without skill support, you can read and include the file as context; that is not an installation.
+
+The skill guides the model to work from your goals, drafts, and preferences, explain tradeoffs, help you try ideas, and reduce repetitive work. It ships no signature visual style and promises no instant taste.
