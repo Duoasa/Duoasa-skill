@@ -1,5 +1,5 @@
 ---
-name: be-yourself
+name: duoasa-skill
 description: Help designers develop and execute their own visual ideas when exploring a direction, comparing designs, or refining work around personal taste.
 ---
 

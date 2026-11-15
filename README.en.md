@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
-  <img src="https://img.shields.io/badge/Agent_Skill-Be_Yourself-8250df.svg" alt="Agent Skill: Be Yourself">
+  <img src="https://img.shields.io/badge/Agent_Skill-duoasa--skill-8250df.svg" alt="Agent Skill: duoasa-skill">
   <img src="https://img.shields.io/badge/Design-Visual-0969da.svg" alt="Design: Visual">
 </p>
 
@@ -14,7 +14,7 @@ Different styles, different eras. Somehow, the distillation left just one parame
 
 ## Install and use
 
-The actual skill lives in [skills/be-yourself/SKILL.md](skills/be-yourself/SKILL.md). Put the `be-yourself` folder in your client's supported skills directory. Downloading the repository alone does not activate it.
+The actual skill lives in [skills/duoasa-skill/SKILL.md](skills/duoasa-skill/SKILL.md). Put the `duoasa-skill` folder in your client's supported skills directory. Downloading the repository alone does not activate it.
 
 First, download the repository. These commands work in macOS, Linux, or Git Bash:
 
@@ -29,26 +29,26 @@ Choose the commands for your client:
 
 ```bash
 mkdir -p "$HOME/.agents/skills"
-cp -R -i skills/be-yourself "$HOME/.agents/skills/"
+cp -R -i skills/duoasa-skill "$HOME/.agents/skills/"
 ```
 
 Invoke it in a conversation:
 
 ```text
-$be-yourself Help me develop this direction from my existing work and preferences.
+$duoasa-skill Help me develop this direction from my existing work and preferences.
 ```
 
 **Claude Code (local)**
 
 ```bash
 mkdir -p "$HOME/.claude/skills"
-cp -R -i skills/be-yourself "$HOME/.claude/skills/"
+cp -R -i skills/duoasa-skill "$HOME/.claude/skills/"
 ```
 
 Invoke it in a conversation:
 
 ```text
-/be-yourself Help me develop this direction from my existing work and preferences.
+/duoasa-skill Help me develop this direction from my existing work and preferences.
 ```
 
 These locations follow the [Codex documentation](https://learn.chatgpt.com/docs/build-skills) and [Claude Code documentation](https://code.claude.com/docs/en/skills). If the skill does not appear in your current session, start a new session and select it. For other Agent Skills clients, import the same folder following their instructions. In chat tools without skill support, you can read and include the file as context; that is not an installation.
@@ -118,6 +118,6 @@ Those judgments will not always be right. But making the work, comparing version
 
 I want tools to save designers the repetitive work so they have the energy to give their judgment a fair chance. Try another possibility. Revisit a detail. Finally make the thing they have been carrying around in their heads.
 
-As for this Skill that supposedly distilled generations of masters: it really does have a [SKILL.md](skills/be-yourself/SKILL.md). Inside is a working agreement: start from your ideas, make choices and tradeoffs clear, and help you make what you want to make. No universal master style included.
+As for this Skill that supposedly distilled generations of masters: it really does have a [SKILL.md](skills/duoasa-skill/SKILL.md). Inside is a working agreement: start from your ideas, make choices and tradeoffs clear, and help you make what you want to make. No universal master style included.
 
 **This Skill helps the model help you be yourself.**

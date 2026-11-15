@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
-  <img src="https://img.shields.io/badge/Agent_Skill-Be_Yourself-8250df.svg" alt="Agent Skill: Be Yourself">
+  <img src="https://img.shields.io/badge/Agent_Skill-duoasa--skill-8250df.svg" alt="Agent Skill: duoasa-skill">
   <img src="https://img.shields.io/badge/Design-Visual-0969da.svg" alt="Design: Visual">
 </p>
 
@@ -14,7 +14,7 @@
 
 ## 安装与使用
 
-真正的 Skill 文件在 [skills/be-yourself/SKILL.md](skills/be-yourself/SKILL.md)。把 `be-yourself` 文件夹放进客户端支持的 Skills 目录即可；仅下载仓库不会自动启用。
+真正的 Skill 文件在 [skills/duoasa-skill/SKILL.md](skills/duoasa-skill/SKILL.md)。把 `duoasa-skill` 文件夹放进客户端支持的 Skills 目录即可；仅下载仓库不会自动启用。
 
 先下载仓库（以下命令适用于 macOS、Linux 或 Git Bash）：
 
@@ -29,26 +29,26 @@ cd Duoasa-skill
 
 ```bash
 mkdir -p "$HOME/.agents/skills"
-cp -R -i skills/be-yourself "$HOME/.agents/skills/"
+cp -R -i skills/duoasa-skill "$HOME/.agents/skills/"
 ```
 
 在对话中调用：
 
 ```text
-$be-yourself 根据我已有的稿件和偏好，帮我把这个方向继续做下去。
+$duoasa-skill 根据我已有的稿件和偏好，帮我把这个方向继续做下去。
 ```
 
 **Claude Code（本地）**
 
 ```bash
 mkdir -p "$HOME/.claude/skills"
-cp -R -i skills/be-yourself "$HOME/.claude/skills/"
+cp -R -i skills/duoasa-skill "$HOME/.claude/skills/"
 ```
 
 在对话中调用：
 
 ```text
-/be-yourself 根据我已有的稿件和偏好，帮我把这个方向继续做下去。
+/duoasa-skill 根据我已有的稿件和偏好，帮我把这个方向继续做下去。
 ```
 
 安装位置依据 [Codex 文档](https://learn.chatgpt.com/docs/build-skills)与 [Claude Code 文档](https://code.claude.com/docs/en/skills)。若当前会话未显示新 Skill，重新打开会话后再选择。其他支持 Agent Skills 的客户端，请按其安装说明导入同一文件夹；不支持 Skills 的聊天工具，也可以直接阅读并引用文件内容，但这不等于安装。
@@ -118,6 +118,6 @@ AI 越来越擅长一次给出十张好看的图。这时候更重要的，是�
 
 我更希望工具能省下那些重复操作，让设计师有精力把自己的判断做充分。多试一种可能，多推敲一次细节，把一直放在心里的东西真正做出来。
 
-至于这个号称蒸馏了历代大师的 Skill，它还真有一个 [SKILL.md](skills/be-yourself/SKILL.md)。里面没有大师的统一画风，只有一套协作约定：从你的想法出发，把选择和取舍讲清楚，帮你把想做的东西做出来。
+至于这个号称蒸馏了历代大师的 Skill，它还真有一个 [SKILL.md](skills/duoasa-skill/SKILL.md)。里面没有大师的统一画风，只有一套协作约定：从你的想法出发，把选择和取舍讲清楚，帮你把想做的东西做出来。
 
 **这个 Skill 会让模型帮你做自己。**
