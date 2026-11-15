@@ -65,19 +65,17 @@ Designers often already have a draft and an opinion. Sometimes they just need a 
 
 I do not want to teach designers how to design.
 
-Most designers have a little “ego”: faith in their taste, convictions they will not easily abandon, and ideas they have not made yet but want to prove. I do too.
+Most designers have a little “ego”: faith in their taste, convictions they will not easily abandon, and ideas they have not made yet but want to prove. I do too. Even with a ready-made answer, I still want to try my own version.
 
-That is part of personal taste: what you value, what you will give up, and why you still want to try your own version when a ready-made answer exists.
+Personal taste develops through these choices. Some convictions prove their worth only once you make the work; others change when you see the result. No Skill can go through that process for you.
 
-Those judgments will not always be right. But making the work, comparing versions, discovering a conviction worth keeping, or admitting you should change your mind—all of that is how taste develops. No Skill can go through it for you.
+I want tools to save designers the repetitive work so they have the energy to explore those ideas properly. The ideas set aside because they seemed like too much trouble deserve, at least, a chance to be made and seen.
 
-I want tools to save designers the repetitive work so they have the energy to give their judgment a fair chance. Try another possibility. Revisit a detail. Finally make the thing they have been carrying around in their heads.
+As for this Skill that supposedly distilled generations of masters: it really does have a [SKILL.md](skills/duoasa-skill/SKILL.md). Its purpose is simple: have the model start from your ideas, help you think them through, try things, and make the work. Which version you use is up to you.
 
-As for this Skill that supposedly distilled generations of masters: it really does have a [SKILL.md](skills/duoasa-skill/SKILL.md). Inside is a working agreement: start from your ideas, make choices and tradeoffs clear, and help you make what you want to make. No universal master style included.
+If you have read this far, you have already installed this Skill in yourself.
 
-**This Skill helps the model help you be yourself.**
-
-If you have read this far, you have already installed this Skill in yourself. I hope that in the AI era, you will spend less time blindly following others and use AI to make what you actually want to make.
+I hope that in the AI era, you will spend less time blindly following others and use AI to make what you actually want to make.
 
 ---
 
