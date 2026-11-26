@@ -3,7 +3,7 @@
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
   <img src="https://img.shields.io/badge/Agent_Skill-duoasa--skill-8250df.svg" alt="Agent Skill: duoasa-skill">
-  <img src="https://img.shields.io/badge/Design-Visual-0969da.svg" alt="Design: Visual">
+  <img src="https://img.shields.io/badge/Taste-Yours-0969da.svg" alt="Taste: Yours">
 </p>
 
 <p align="center"><a href="README.md">简体中文</a> · <strong>English</strong></p>
@@ -79,10 +79,33 @@ I hope that in the AI era, you will spend less time blindly following others and
 
 ---
 
+## Skills in this repository
+
+Built on the same principle: automate repetitive work and tool workflows, and leave taste to the person using them.
+
+| Skill | Status | What it does for you | What it will not decide for you |
+| --- | --- | --- | --- |
+| [`duoasa-skill`](skills/duoasa-skill/SKILL.md) | Released | Develops ideas from your drafts and preferences, explains tradeoffs, and gives candid critique | Ships no signature visual style and does not decide what looks good |
+| `duoasa-ppt` | Planned | Builds editable `.pptx` slides with layout self-checks and targeted single-slide iteration | Forces no stock templates; visual direction and masters stay yours |
+
 <details>
 <summary>Want to install it for your model too? Expand the setup guide</summary>
 
-The actual skill lives in [skills/duoasa-skill/SKILL.md](skills/duoasa-skill/SKILL.md). Put the `duoasa-skill` folder in your client's supported skills directory. Downloading the repository alone does not activate it.
+The actual skill lives in [skills/duoasa-skill/SKILL.md](skills/duoasa-skill/SKILL.md). Installing it changes how the model collaborates in three concrete ways:
+
+- **Style as an option, not an authority**: Evaluates styles against your design goal instead of treating trends, install counts, or master names as proof of taste.
+- **Transparent reasoning**: Separates what comes from your preferences, what comes from content or audience constraints, and what is only the model's opinion.
+- **Visible tradeoffs and candid critique**: Produces concrete variants when comparison matters, respects your final call, and points out real issues without sycophancy.
+
+### Option 1: Install via Agent Skills CLI
+
+```bash
+npx skills add Duoasa/Duoasa-skill
+```
+
+### Option 2: Manual installation by client
+
+Put the `duoasa-skill` folder in your client's supported skills directory. Downloading the repository alone does not activate it.
 
 First, download the repository. These commands work in macOS, Linux, or Git Bash:
 
