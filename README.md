@@ -3,7 +3,7 @@
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
   <img src="https://img.shields.io/badge/Agent_Skill-duoasa--skill-8250df.svg" alt="Agent Skill: duoasa-skill">
-  <img src="https://img.shields.io/badge/Design-Visual-0969da.svg" alt="Design: Visual">
+  <img src="https://img.shields.io/badge/Taste-Yours-0969da.svg" alt="Taste: Yours">
 </p>
 
 <p align="center"><strong>简体中文</strong> · <a href="README.en.md">English</a></p>
@@ -79,10 +79,33 @@ AI 越来越擅长一次给出十张好看的图。这时候更重要的，是�
 
 ---
 
+## 这个仓库里的 Skills
+
+遵守同一条原则：把重复操作和工具链路做扎实，把审美判断留给使用者。
+
+| Skill | 状态 | 它替你做什么 | 它不替你做什么 |
+| --- | --- | --- | --- |
+| [`duoasa-skill`](skills/duoasa-skill/SKILL.md) | 已发布 | 围绕你的稿件与偏好推敲方案、说明取舍、坦诚指错 | 不附带统一画风，不替你决定什么叫好看 |
+| `duoasa-ppt` | 筹备中 | 可编辑 `.pptx` 生成、版面自检与单页精准迭代 | 不强塞预设模板，审美与母版由你定义 |
+
 <details>
 <summary>想给模型也装上？展开安装与使用说明</summary>
 
-真正的 Skill 文件在 [skills/duoasa-skill/SKILL.md](skills/duoasa-skill/SKILL.md)。把 `duoasa-skill` 文件夹放进客户端支持的 Skills 目录即可；仅下载仓库不会自动启用。
+真正的 Skill 文件在 [skills/duoasa-skill/SKILL.md](skills/duoasa-skill/SKILL.md)。装上后，模型的协作方式会有三点具体变化：
+
+- **不拿流行当结论**：把画风视为可选表达，结合你的设计目的判断是否合适，不拿安装量或大师名号替你做决定。
+- **说清依据来源**：给出建议时明确区分哪些来自你的偏好、哪些来自受众与场景约束、哪些只是模型的主观建议。
+- **给可见版本与坦诚指错**：值得比较时做出可见方案并说明取舍；尊重最终选择，也直接指出会影响表达的问题，不无条件捧场。
+
+### 方式一：通过 Agent Skills CLI 一键安装
+
+```bash
+npx skills add Duoasa/Duoasa-skill
+```
+
+### 方式二：手动安装到指定客户端
+
+把 `duoasa-skill` 文件夹放进客户端支持的 Skills 目录即可；仅下载仓库不会自动启用。
 
 先下载仓库（以下命令适用于 macOS、Linux 或 Git Bash）：
 
